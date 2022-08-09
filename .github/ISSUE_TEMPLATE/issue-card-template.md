@@ -2,16 +2,16 @@
 name: Issue card template
 about: Issuing a ticket
 title: ''
-labels: ''
+labels: bare minimum, E:2h, front-end
 assignees: ''
 
 ---
 
-### Issue 타입
-`기능 추가`
-`기능 삭제`
-`버그 수정`
-`의존성, 환경 변수, 빌드 관련 코드 업데이트`
+### Type of issue 
+`Add features`
+`Delete features`
+`Fix bugs`
+`Update dependencies, build-related code`
 
-### 상세 내용
+### Description
 - [ ]
