@@ -1,13 +1,11 @@
 import React from 'react';
-import '../App.css';
-import './Projects.css';
+import Cards from '../components/Cards'
 
 
 function Projects() {
   return (
     <div className='hero-container'>
-      <form>
-        </form>
+      <Cards/>
     </div>
   );
 }

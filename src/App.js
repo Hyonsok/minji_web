@@ -1,10 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Projects from './pages/Projects';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Projects from './pages/Projects'
 
 function App() {
   return (
-    <Projects />
+    <>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Projects/>}/>
+      </Routes>
+    </Router>
+    </>
   );
 }
 
