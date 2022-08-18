@@ -8,11 +8,11 @@ export default function Footer() {
   return (
     <Container>
       <Row>
-        <Col className="flex justify-center">
-          <p>Designed and developed by </p>
+        <Col className="hidden justify-center sm:block">
+          <p className="flex justify-center">Designed and developed by </p>
         </Col>
-        <Col className="flex justify-center">
-          <p>Copyright © 2022</p>
+        <Col className="hidden justify-center sm:block">
+          <p className="flex justify-center">Copyright © 2022</p>
         </Col>
         <Col className="flex justify-center">
           <Row className="inline-block">
