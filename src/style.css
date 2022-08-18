@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #505057 !important;
+  border-color: #282828d7 !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #7a7a85 !important;
+  border-color: #3c3c3cd7 !important;
+}
