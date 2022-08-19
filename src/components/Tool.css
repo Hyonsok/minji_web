@@ -54,3 +54,6 @@
     transition: all .4s ease 0s!important;
     vertical-align: middle!important;
   }
+  .card:hover{
+    transform: scale(1.1);
+  }
