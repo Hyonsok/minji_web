@@ -1,5 +1,6 @@
 import React from 'react'
 import Calendar from 'react-github-contribution-calendar';
+import './GithubActivity.css';
 function GithubActivity() {
     var values = {
         '2022-06-23': 1,
@@ -24,10 +25,11 @@ function GithubActivity() {
   return (
     <div>
         <h1>Days I code</h1>
+        <div className='github-calendar'>
         <Calendar
-        className="github-calendar"
         values={values} until={until} panelColors={panelColors}
         weekNames={weekNames} monthNames={monthNames}/> 
+        </div>
     </div>
   )
 }
