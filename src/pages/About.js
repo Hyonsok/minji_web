@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< Updated upstream
 import Row from 'react-bootstrap/Row'
 import { DiReact } from "react-icons/di"
 import { DiNodejs } from "react-icons/di"
@@ -24,6 +25,20 @@ function Projects() {
                 <DiJava/>
             </div>
         </Row>
+=======
+import Skillset  from '../components/Skillset';
+import Tool from '../components/Tool'
+import GithubActivity from '../components/GithubActivity';
+function Projects() {
+    
+    
+  return (
+    <div className='about-container'>
+        <Skillset/>
+        <br/>
+        <Tool />
+        <GithubActivity/>
+>>>>>>> Stashed changes
     </div>
   );
 }
