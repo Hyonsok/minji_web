@@ -1,0 +1,55 @@
+.intro__first__row {
+    width: 100%;
+    height: 100vh;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.785),
+        rgba(0, 0, 0, 0.7)),
+        url("../../public/images/intro_bg..jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.introduction {
+    position: absolute;
+    font-weight: 400;
+    font-size: 3em;
+    margin: 5%;
+}
+
+.developer__name {
+    color: #D34BFD;
+    font-weight: 600;
+}
+
+.developer__skill {
+    color: #D34BFD;
+}
+
+.mainImg {
+    position: relative;
+    z-index: 999;
+}
+
+
+
+.hand__emoji {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;      
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+
