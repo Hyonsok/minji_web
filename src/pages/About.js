@@ -32,6 +32,7 @@ function Projects() {
     
   return (
     <div className='about-container'>
+<<<<<<< Updated upstream
         <h3>About page</h3>
         <Row>
             <div className='tech-icons col-md-2 col-4'>
@@ -52,6 +53,14 @@ function Projects() {
         values={values} until={until} panelColors={panelColors}
         weekNames={weekNames} monthNames={monthNames}/> 
         </Row>
+=======
+        <Skillset/>
+        <br/>
+        <Tool />
+        <br/>
+        <br/>
+        <GithubActivity/>
+>>>>>>> Stashed changes
     </div>
   );
 }
