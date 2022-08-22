@@ -8,7 +8,7 @@ const styleFooter = {
   bottom: "0",
   height: "60px",
   width: "100%",
-  fontSize: "1em", 
+  fontSize: "1.3em", 
   color:"white",
 };
 
