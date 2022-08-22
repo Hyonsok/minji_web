@@ -64,7 +64,7 @@ function HomeIntro(props) {
 
 
         <div className="social__box">
-          <p style={{marginBottom:"-10px"}}>Find me on</p>
+          <p className="social__find">Find me on</p>
           <div className="social__icon">
             <SocialFlow 
               linkedin={props.linkedin}

@@ -4,11 +4,8 @@ import {Container, Row, Col } from "react-bootstrap";
 const styleFooter = {
   textAlign: "center",
   position: "fixed",
-  left: "0",
   bottom: "0",
-  height: "60px",
-  width: "100%",
-  fontSize: "1.3em", 
+  fontSize: "1.2em", 
   color:"white",
 };
 
