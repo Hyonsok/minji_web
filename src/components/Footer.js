@@ -3,7 +3,6 @@ import {Container, Row, Col } from "react-bootstrap";
 
 const styleFooter = {
   textAlign: "center",
-  padding: "11px",
   position: "fixed",
   left: "0",
   bottom: "0",
@@ -14,14 +13,15 @@ const styleFooter = {
 };
 
 
+
 export default function Footer() {
   return (  
-    <Container fluid style={styleFooter}>
+    <Container fluid style={styleFooter} className='footer'>
       <Row>
-        <Col md={10} style={{display:'flex', justifyContent:'right'}}>  
+        <Col xs={11} md={10} style={{display:'flex', justifyContent:'right'}}>  
           <p>Designed and developed by NaJeonLee</p>
         </Col>
-        <Col md={2} >
+        <Col xs={12} md={2} >
           <p>Copyright © 2022</p>
         </Col>
       </Row>

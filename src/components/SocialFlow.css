@@ -31,3 +31,18 @@ a.twitter {
 a.instagram {
     color: rgb(248, 157, 222);
 }
+
+
+@media screen and (max-width:400px) {
+    
+    .social-container {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    a.social {
+        margin: 0 0.5rem;
+        transition: transform 250ms;
+    }
+}

@@ -20,9 +20,11 @@ function HomeIntro(props) {
               <Typewriter options={{strings: props.skills, autoStart: true, loop: true,}}/>
             </div> 
           </div> 
-          <object type="image/svg+xml" data="./images/intro_main.svg" className="svg__object"></object> 
         </div>
       </div>
+
+      <object type="image/svg+xml" data="./images/intro_main.svg" className="svg__object"></object> 
+
 
       <div className="intro__second__row">
         <div className="intro__second__box">
@@ -61,9 +63,9 @@ function HomeIntro(props) {
         </div>
 
 
-        <div className="social__icon">
+        <div className="social__box">
           <p>FIND ME ON</p>
-          <div>
+          <div className="social__icon">
             <SocialFlow 
               linkedin={props.linkedin}
               github={props.github}
