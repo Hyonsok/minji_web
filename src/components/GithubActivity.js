@@ -22,10 +22,9 @@ function GithubActivity() {
         'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'
     ];
   return (
-    <div>
-        
+    <div style={{textAlign: "center"}}>
         <Calendar
-        className="github-calendar"
+        style={{width: "100%"}}
         values={values} until={until} panelColors={panelColors}
         weekNames={weekNames} monthNames={monthNames}/> 
     </div>
