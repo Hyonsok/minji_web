@@ -10,17 +10,19 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg" style={{position:'relative', zIndex:'2'}}>
       <Container>
-        <Navbar.Brand href="/">Portfolio</Navbar.Brand>
+        <Navbar.Brand href="/" className="font-bold">
+          Portfolio
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/about">
+          <Nav className="text-xl p-3">
+            <Nav.Link as={Link} to="/about" className="mr-3">
               About
             </Nav.Link>
-            <Nav.Link as={Link} to="/projects">
+            <Nav.Link as={Link} to="/projects" className="mr-3">
               Projects
             </Nav.Link>
-            <Nav.Link as={Link} to="/resume">
+            <Nav.Link as={Link} to="/resume" className="mr-3">
               Resume
             </Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
