@@ -1,5 +1,5 @@
 import React from "react";
-import HomeIntro from "../../components/HomeIntro";
+import HomeIntro from "../HomeIntro";
 import "./Home.css";  
 
 
