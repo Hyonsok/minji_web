@@ -1,47 +1,29 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { BsFileEarmarkPpt } from "react-icons/bs";
+
+import {Container, Row, Col } from "react-bootstrap";
+
+const styleFooter = {
+  textAlign: "center",
+  position: "fixed",
+  bottom: "0",
+  fontSize: "1.2em", 
+  color:"white",
+};
+
+
+
 
 export default function Footer() {
-  return (
-    <Container>
+  return (  
+    <Container fluid style={styleFooter} className='footer'>
       <Row>
-        <Col className="hidden justify-center sm:block">
-          <p className="flex justify-center">Designed and developed by </p>
+        <Col xs={11} md={10} style={{display:'flex', justifyContent:'right'}}>  
+          <p>Designed and developed by NaJeonLee</p>
         </Col>
-        <Col className="hidden justify-center sm:block">
-          <p className="flex justify-center">Copyright © 2022</p>
+        <Col xs={12} md={2} >
+          <p>Copyright © 2022</p>
         </Col>
-        <Col className="flex justify-center">
-          <Row className="inline-block">
-            <a
-              href="https://github.com/TripToCodes"
-              target="_blank"
-              rel="noreferrer"
-              className="w-auto"
-            >
-              <AiFillGithub className="text-black" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/somi-jeon/"
-              target="_blank"
-              rel="noreferrer"
-              className="w-auto"
-            >
-              <FaLinkedinIn className="text-black" />
-            </a>
-            <a
-              href="https://github.com/codestates/HappyDeving/blob/dev3/README_en.md"
-              target="_blank"
-              rel="noreferrer"
-              className="w-auto"
-            >
-              <BsFileEarmarkPpt className="text-black" />
-            </a>
-          </Row>
-        </Col>
+
       </Row>
     </Container>
   );

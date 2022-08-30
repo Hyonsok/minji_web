@@ -8,7 +8,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" style={{position:'relative', zIndex:'2'}}>
       <Container>
         <Navbar.Brand href="/" className="font-bold">
           Portfolio
