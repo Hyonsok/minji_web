@@ -1,5 +1,4 @@
 import React from "react";
-
 import {Container, Row, Col } from "react-bootstrap";
 
 const styleFooter = {
@@ -9,7 +8,6 @@ const styleFooter = {
   fontSize: "1.2em", 
   color:"white",
 };
-
 
 
 
@@ -23,7 +21,6 @@ export default function Footer() {
         <Col xs={12} md={2} >
           <p>Copyright © 2022</p>
         </Col>
-
       </Row>
     </Container>
   );
