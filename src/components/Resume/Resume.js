@@ -15,9 +15,9 @@ const resumeLink =
 export default function Resume() {
   return (
     <>
-      <div className="body-container">
+      <div className="resume-body-container">
         <div className="stars-resume">
-          <Container className="pt-10 pb-10" style={{backgroundColor:"transparent"}}>
+          <Container className="pt-10 pb-10" style={{backgroundColor:"transparent", marginTop:"9%"}}>
             <Row className="justify-center relative pb-10">
               <Document file={resumeLink} className="flex justify-center">
                 <Page pageNumber={1} />

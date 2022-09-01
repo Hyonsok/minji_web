@@ -7,7 +7,7 @@ import SocialFlow from "../SocialFlow";
 function Projects() {
   return (
     <>
-      <div className="body-container">
+      <div className="about-body-container">
         <div className="stars-about">
           <div className="about-container">
             {/* <div className='contact-container' style={{justifyContent: "center", padding: "10px"}}> */}

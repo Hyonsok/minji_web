@@ -6,7 +6,7 @@ import "./Projects.css"
 function Projects() {
   return (
     <>
-      <div className="body-container">
+      <div className="project-body-container">
         <div className="stars-project">
           <Cards/>
           <SocialFlow/>
