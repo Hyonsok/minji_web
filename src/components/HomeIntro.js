@@ -37,12 +37,12 @@ function HomeIntro(props) {
           </div>
           <div className="intro__card">
             <Card
-              style={{ width: "18rem", alignItems: "center", color: "#D34BFD", fontWeight: "800" }}
+              style={{ width: "300px", alignItems: "center", color: "#D34BFD"}}
             >
               <Card.Img variant="top" src={process.env.PUBLIC_URL + "images/sample.png"} />
               <Card.Body>
-                <Card.Title style={{ fontSize: "2rem", fontWeight: "800" }}>Card Title</Card.Title>
-                <Card.Text>{props.breifCardInfo}</Card.Text>
+                <Card.Title style={{ fontSize: "1rem", fontWeight: "800" }}>Card Title</Card.Title>
+                <Card.Text style={{ fontSize: "1rem", fontWeight: "400" }}>{props.breifCardInfo}</Card.Text>
                 <Button
                   href={props.resumeLink}
                   style={{
@@ -50,7 +50,6 @@ function HomeIntro(props) {
                     fontSize: "1.3rem",
                     fontWeight: "800",
                     border: "white",
-                    marginLeft: "57%",
                   }}
                 >
                   Resume
@@ -90,13 +89,7 @@ function HomeIntro(props) {
         <div className="social__box">
           <p className="social__find">Find me on</p>
           <div className="social__icon">
-            <SocialFlow
-              linkedin={props.linkedin}
-              github={props.github}
-              facebook={props.facebook}
-              instagram={props.instagram}
-              twitter={props.twitter}
-            />
+            <SocialFlow/>
           </div>
           <p>
             Feel free to <span className="purple">connect </span>with me

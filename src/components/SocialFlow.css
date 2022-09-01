@@ -1,6 +1,11 @@
 .social-container {
+    position: relative;
     padding: 20px 50px;
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 99;
 }
   
 a.social {
